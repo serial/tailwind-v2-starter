@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-starter-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "devDependencies": {
+    "tailwindcss": "^2.2.19"
+  },
+  "scripts": {
+    "build": "tailwind build -i ./css/src/tailwind-src.css -o ./css/style.css",
+    "watch": "tailwind build -i ./css/src/tailwind-src.css -o ./css/style.css --watch",
+    "prod": "tailwind build -o ./css/style.css --minify"
+  },
+  "author": "serial",
+  "license": "ISC"
+}
